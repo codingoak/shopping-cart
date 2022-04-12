@@ -9,6 +9,7 @@ import {
   Navbar,
 } from 'react-bootstrap';
 import { FaShoppingCart } from 'react-icons/fa';
+import './styles.css';
 
 export default function Header() {
   return (
@@ -18,7 +19,11 @@ export default function Header() {
           <Link to="/">Shopping Cart</Link>
         </Navbar.Brand>
         <Navbar.Text className="search">
-          <FormControl placeholder="Search a product" className="m-auto" />
+          <FormControl
+            placeholder="Search a product"
+            className="m-auto"
+            style={{ width: 500 }}
+          />
         </Navbar.Text>
         <Nav>
           <Dropdown align="end">
