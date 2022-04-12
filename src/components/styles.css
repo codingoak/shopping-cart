@@ -1,0 +1,17 @@
+@media (max-width: 771px) {
+  input {
+    width: 300px !important;
+  }
+}
+
+@media (max-width: 820px) {
+  a {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 572px) {
+  input {
+    display: none !important;
+  }
+}
