@@ -10,6 +10,8 @@
 
 - [React](https://beta.reactjs.org/)
 - [react-bootstrap](https://react-bootstrap.github.io/)
+- [react-icons](https://react-icons.github.io/react-icons/)
+- [react-router-dom](https://github.com/remix-run/react-router)
 
 ## `Installation`
 
